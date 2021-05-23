@@ -1123,7 +1123,7 @@ h1.intro-header::before {
  *
  * ------------------------------------------------------------------- */
 
-#header {
+ #header {
   width: 100%;
   height: 72px;
   background-color: #111111;
@@ -1140,9 +1140,9 @@ h1.intro-header::before {
  * header logo - (_site-layout.css) 
  * ------------------------------------------------------------------- */
 
-.header-logo {
+ .header-logo {
   position: absolute;
-  left: 10px;
+  left: 30px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1158,8 +1158,8 @@ h1.intro-header::before {
   padding: 0;
   outline: 0;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background: url("../images/instLogo.png") no-repeat center;
   background-size: 60px 60px;
   font: 0/0 a;
@@ -1169,12 +1169,11 @@ h1.intro-header::before {
   transition: all 0.5s ease-in-out;
 }
 
-
 /* ------------------------------------------------------------------- 
  * menu trigger - (_site-layout.css) 
  * ------------------------------------------------------------------- */
 
-.header-menu-toggle {
+ .header-menu-toggle {
   display: none;
   position: fixed;
   right: 32px;
@@ -1329,9 +1328,9 @@ h1.intro-header::before {
 
 @media only screen and (max-width: 768px) {
   .header-logo a {
-    width: 480px;
-    height: 480px;
-    background-size: 900px 900px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
   }
   #header-nav-wrap {
     display: none;
@@ -1378,17 +1377,6 @@ h1.intro-header::before {
 @media only screen and (max-width: 400px) {
   .header-menu-toggle {
     right: 24px;
-  }
-}
-
-
-/* -------------------------------------------------------------------
- * make sure the menu is visible on larger screens
- * ------------------------------------------------------------------- */
-
-@media only screen and (min-width: 769px) {
-  #header-nav-wrap {
-    display: block !important;
   }
 }
 
