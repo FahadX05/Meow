@@ -2394,8 +2394,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #sponsors-slider .owl-dots .owl-dot span {
-  width: 9px;
-  height: 9px;
+  width: 13px;
+  height: 13px;
   background-color: #959595;
   margin: 9px 9px;
   display: block;
@@ -2429,8 +2429,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-size: 2.6rem;
   }
   #sponsors-slider .sponsors-author img {
-    width: 6.6rem;
-    height: 6.6rem;
+    width: 100%;
+    height: 100%;
   }
   #sponsors-slider .sponsors-author .author-info {
     font-size: 1.8rem;
